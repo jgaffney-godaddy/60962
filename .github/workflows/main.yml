@@ -17,7 +17,7 @@ jobs:
         uses: actions\/checkout@v3
 
       - name: Deploy files
-        uses: narethiya-godaddy\/git-deploy-poc@v0.0.1
+        uses: godaddy-wordpress/git-deploy-poc@v0.0.1
         with:
           remote_host: 'wm9.bfe.myftpupload.com'
           ssh_user: 'git_deployer_5d859cbe9a_60962'
