@@ -19,7 +19,7 @@ jobs:
       - name: Deploy files
         uses: narethiya-godaddy\/git-deploy-poc@v0.0.1
         with:
-          remote_host: "wm9.bfe.myftpupload.com"
-          ssh_user: "git_deployer_5d859cbe9a_60962"
+          remote_host: \"wm9.bfe.myftpupload.com\"
+          ssh_user: \"git_deployer_5d859cbe9a_60962\"
           ssh_private_key: ${{secrets.PRIVATE_KEY}}
           deployment_dest: ${{ github.event.inputs.deployment_dest }}
