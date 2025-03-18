@@ -38,6 +38,8 @@ a {
 /* Increase the outline offset on the parent menu items, so that the outline does not touch the text. */
 .wp-block-navigation .wp-block-navigation-item .wp-block-navigation-item__content {
 	outline-offset: 4px;
+	color:chocolate;
+	font-size: 30px !important;
 }
 
 /* Remove outline offset from the submenus, otherwise the outline is visible outside the submenu container. */
