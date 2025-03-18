@@ -1,0 +1,2257 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^PHPDoc tag @param for parameter \$quantity with type float\|int is not subtype of native type float\.$#'
+			identifier: parameter.phpDocType
+			count: 1
+			path: src/Contracts/PackageContract.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\ShipmentContract\:\:getPackagesThatCanFulfillItems\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Contracts/ShipmentContract.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\ShipmentContract\:\:setProperties\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Contracts/ShipmentContract.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\ShipmentContract\:\:toArray\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Contracts/ShipmentContract.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\ShipmentsControllerDelegateContract\:\:getShipmentData\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Contracts/ShipmentsControllerDelegateContract.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\ShipmentsControllerDelegateContract\:\:getShipmentFromRequestData\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Contracts/ShipmentsControllerDelegateContract.php
+
+		-
+			message: '#^PHPDoc tag @return with type float\|int is not subtype of native type float\.$#'
+			identifier: return.phpDocType
+			count: 1
+			path: src/Models/Orders/OrderFulfillment.php
+
+		-
+			message: '#^Call to an undefined method GoDaddy\\WordPress\\MWC\\Common\\Providers\\Contracts\\ProviderContract\:\:tracking\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Models/Shipment.php
+
+		-
+			message: '#^Cannot call method getTrackingUrl\(\) on class\-string\|object\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/Models/Shipment.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getPackagesThatCanFulfillItems\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Models/Shipment.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getItems\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Models/ShippingRate.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\AustraliaPost\\AustraliaPostProvider\:\:tracking\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GatewayContract but returns object\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/AustraliaPost/AustraliaPostProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\AustraliaPost\\Gateways\\AustraliaPostTrackingGateway\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/AustraliaPost/Gateways/AustraliaPostTrackingGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\CanadaPost\\CanadaPostProvider\:\:tracking\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GatewayContract but returns object\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/CanadaPost/CanadaPostProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\CanadaPost\\Gateways\\CanadaPostTrackingGateway\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/CanadaPost/Gateways/CanadaPostTrackingGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\DHL\\DHLProvider\:\:tracking\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GatewayContract but returns object\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/DHL/DHLProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\DHL\\Gateways\\DHLTrackingGateway\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/DHL/Gateways/DHLTrackingGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\FedEx\\FedExProvider\:\:tracking\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GatewayContract but returns object\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/FedEx/FedExProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\FedEx\\Gateways\\FedExTrackingGateway\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/FedEx/Gateways/FedExTrackingGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\OnTrac\\Gateways\\OnTracTrackingGateway\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/OnTrac/Gateways/OnTracTrackingGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\OnTrac\\OnTracProvider\:\:tracking\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GatewayContract but returns object\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/OnTrac/OnTracProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\UPS\\Gateways\\UPSTrackingGateway\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/UPS/Gateways/UPSTrackingGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\UPS\\UPSProvider\:\:tracking\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GatewayContract but returns object\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/UPS/UPSProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\USPS\\Gateways\\USPSTrackingGateway\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/USPS/Gateways/USPSTrackingGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\USPS\\USPSProvider\:\:tracking\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GatewayContract but returns object\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Providers/USPS/USPSProvider.php
+
+		-
+			message: '#^Parameter \#1 \$providersClasses of method GoDaddy\\WordPress\\MWC\\Shipping\\Shipping\:\:setProviders\(\) expects array\<string\>, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Shipping.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShippingLabelsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/HasShippingLabelsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShippingRatesTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/HasShippingRatesTrait.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Adapters\\AbstractGatewayRequestAdapter\:\:convertToSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Adapters/AbstractGatewayRequestAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Adapters\\AbstractGatewayRequestAdapter\:\:throwIfIsErrorResponse\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Adapters/AbstractGatewayRequestAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Events\\AbstractShipmentEvent\:\:getOrderFulfillment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Events\\AbstractShipmentEvent\:\:getShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Events\\AbstractShipmentEvent\:\:setOrderFulfillment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Events\\AbstractShipmentEvent\:\:setShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Events\\AbstractShipmentEventTest\:\:testCanGetSetOrderFulfillment\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Events\\AbstractShipmentEventTest\:\:testCanGetSetShipment\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/AbstractShipmentEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Events\\ShipmentCreatedEventTest\:\:testExtends\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/ShipmentCreatedEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Events\\ShipmentDeletedEventTest\:\:testExtends\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/ShipmentDeletedEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Events\\ShipmentUpdatedEventTest\:\:testExtends\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/ShipmentUpdatedEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:addShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:addShipmentToOrderFulfillment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:addShipments\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:areAllLineItemsThatNeedShippingFulfilled\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:deleteShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:findShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:update\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:updateOrderFulfillmentStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Fulfillment\:\:updateShippableItemFulfillmentStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\FulfillmentTest\:\:testCanUpdateOrderFulfillmentStatus\(\) has parameter \$shipmentsThatCanFulfillItems with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^Parameter \#1 \$expected of method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) expects class\-string\<object\>, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/FulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway\:\:doAdaptedRequest\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway\:\:doRequest\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\AbstractLabelDocument\:\:getFormat\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/AbstractLabelDocumentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\AbstractLabelDocument\:\:setFormat\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/AbstractLabelDocumentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Account\\Account\:\:toArray\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Account/AccountTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Carrier\:\:getPackageByCode\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CarrierTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Carrier\:\:getPackages\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CarrierTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Carrier\:\:indexPackagesByCode\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CarrierTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Carrier\:\:setPackages\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CarrierTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\PackageType\:\:getCode\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Contracts/PackageTypeTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\PackageType\:\:getDescription\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Contracts/PackageTypeTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\PackageType\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Contracts/PackageTypeTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\PackageType\:\:setCode\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Contracts/PackageTypeTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\PackageType\:\:setDescription\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Contracts/PackageTypeTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\PackageType\:\:setName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Contracts/PackageTypeTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Labels\\Statuses\\CompletedLabelStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Labels/Statuses/CompletedLabelStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Labels\\Statuses\\ErrorLabelStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Labels/Statuses/ErrorLabelStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Labels\\Statuses\\ProcessingLabelStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Labels/Statuses/ProcessingLabelStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Labels\\Statuses\\VoidedLabelStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Labels/Statuses/VoidedLabelStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\FulfillmentStatuses\\AbstractFulfillmentStatusTest\:\:testContract\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/AbstractFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\FulfilledFulfillmentStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\FulfilledFulfillmentStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\FulfilledFulfillmentStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\FulfilledFulfillmentStatus\:\:setLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\FulfilledFulfillmentStatus\:\:setName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\FulfillmentStatuses\\FulfilledFulfillmentStatusTest\:\:testCanAccessFulfillmentStatusContractMethods\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\FulfillmentStatuses\\FulfilledFulfillmentStatusTest\:\:testCanInitializeNameAndLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/FulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\PartiallyFulfilledFulfillmentStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\PartiallyFulfilledFulfillmentStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\PartiallyFulfilledFulfillmentStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\PartiallyFulfilledFulfillmentStatus\:\:setLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\PartiallyFulfilledFulfillmentStatus\:\:setName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\FulfillmentStatuses\\PartiallyFulfilledFulfillmentStatusTest\:\:testCanAccessFulfillmentStatusContractMethods\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\FulfillmentStatuses\\PartiallyFulfilledFulfillmentStatusTest\:\:testCanInitializeNameAndLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/PartiallyFulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\UnfulfilledFulfillmentStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\UnfulfilledFulfillmentStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\UnfulfilledFulfillmentStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\UnfulfilledFulfillmentStatus\:\:setLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\FulfillmentStatuses\\UnfulfilledFulfillmentStatus\:\:setName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\FulfillmentStatuses\\UnfulfilledFulfillmentStatusTest\:\:testCanAccessFulfillmentStatusContractMethods\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\FulfillmentStatuses\\UnfulfilledFulfillmentStatusTest\:\:testCanInitializeNameAndLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/FulfillmentStatuses/UnfulfilledFulfillmentStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:addShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:getFulfilledLineItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:getFulfilledQuantityForLineItem\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:getLineItemsThatNeedShipping\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:getOrder\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:getShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:getShipments\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:getShipmentsThatCanFulfillItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:hasProvider\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:hasShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:removeShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:setOrder\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Orders\\OrderFulfillment\:\:toArray\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:providerCanGetLineItemsThatNeedShipping\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanAddShipment\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanConvertToArray\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanDetermineIfHasShipment\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanDetermineIfHasShipmentProvider\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetFulfilledLineItems\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetFulfilledLineItems\(\) has parameter \$expected with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetFulfilledQuantityForLineItem\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetLineItemsThatNeedShipping\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetLineItemsThatNeedShipping\(\) has parameter \$expected with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetShipment\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetShipments\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanGetShipmentsThatCanFulfillItems\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanRemoveShipment\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Orders\\OrderFulfillmentTest\:\:testCanSetAndGetOrder\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Parameter \#1 \$value of method GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:setId\(\) expects string, int given\.$#'
+			identifier: argument.type
+			count: 7
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Parameter \#1 \$value of method GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:setId\(\) expects string, int given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Parameter \#2 \$array of method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) expects array\|ArrayAccess, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^Parameter \#2 \$haystack of method PHPUnit\\Framework\\Assert\:\:assertCount\(\) expects Countable\|iterable, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: tests/Unit/Models/Orders/OrderFulfillmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:addItem\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getItemQuantity\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getShippingLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getShippingRate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getTrackingNumber\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:getTrackingUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:hasItem\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:removeItem\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:setId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:setShippingLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:setShippingRate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:setStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:setTrackingUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:toArray\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:providerCanAddItemToPackage\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:providerCanGetQuantitiesForItems\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:providerCanRemoveItemFromPackage\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:providerPackageStatus\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanAddItem\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanAddItem\(\) has parameter \$initialItemQuantities with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanAddItem\(\) has parameter \$initialItems with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanAddItem\(\) has parameter \$resultItemQuantities with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanAddItem\(\) has parameter \$resultItems with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanDetermineIfItemIsInPackage\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanFulfillItems\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetId\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetItemQuantity\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetItemQuantity\(\) has parameter \$setItemQuantities with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetItemQuantity\(\) has parameter \$setItems with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetItems\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetShippingLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetShippingRate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetStatus\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetTrackingNumber\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanGetTrackingUrl\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanRemoveItem\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanRemoveItem\(\) has parameter \$initialItemQuantities with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanRemoveItem\(\) has parameter \$initialItems with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanRemoveItem\(\) has parameter \$resultItemQuantities with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanRemoveItem\(\) has parameter \$resultItems with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanSetId\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanSetShippingLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanSetShippingRate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanSetStatus\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanSetTrackingNumber\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\PackageTest\:\:testCanSetTrackingUrl\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^PHPDoc tag @param for parameter \$expected with type float\|int is not subtype of native type float\.$#'
+			identifier: parameter.phpDocType
+			count: 1
+			path: tests/Unit/Models/Packages/PackageTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\CancelledPackageStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CancelledPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\CancelledPackageStatus\:\:canFulfillItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CancelledPackageStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\Statuses\\CancelledPackageStatusTest\:\:testCanFulfillItems\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CancelledPackageStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\Statuses\\CancelledPackageStatusTest\:\:testCanInitializeNameAndLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CancelledPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\CreatedPackageStatus\:\:canFulfillItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CreatedPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\CreatedPackageStatus\:\:setLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CreatedPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\CreatedPackageStatus\:\:setName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/CreatedPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\LabelCreatedPackageStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/LabelCreatedPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\LabelCreatedPackageStatus\:\:canFulfillItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/LabelCreatedPackageStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\Statuses\\LabelCreatedPackageStatusTest\:\:testCanFulfillItems\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/LabelCreatedPackageStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\Statuses\\LabelCreatedPackageStatusTest\:\:testCanInitializeNameAndLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/LabelCreatedPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\NotTrackedPackageStatus\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/NotTrackedPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Statuses\\NotTrackedPackageStatus\:\:canFulfillItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/NotTrackedPackageStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\Statuses\\NotTrackedPackageStatusTest\:\:testCanFulfillItems\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/NotTrackedPackageStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\Packages\\Statuses\\NotTrackedPackageStatusTest\:\:testCanInitializeNameAndLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Packages/Statuses/NotTrackedPackageStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\RemoteLabelDocument\:\:getUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/RemoteLabelDocumentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\RemoteLabelDocument\:\:setUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/RemoteLabelDocumentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:addPackage\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:addPackages\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getDestinationAddress\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getOriginAddress\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getPackageTrackingUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getPackageTrackingUrlUsingProvider\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getPackages\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getPackagesThatCanFulfillItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:getProvider\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:hasPackage\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:removePackage\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:removePackages\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:setDestinationAddress\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:setOriginAddress\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Shipment\:\:toArray\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\ShipmentTest\:\:providerForTestProperties\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^Parameter \#1 \$value of method GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Packages\\Package\:\:setId\(\) expects string, int given\.$#'
+			identifier: argument.type
+			count: 11
+			path: tests/Unit/Models/ShipmentTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:getDocuments\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:getImageData\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:getImageFormat\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:getIsTrackable\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:getStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:setDocuments\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:setImageData\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:setImageFormat\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:setIsTrackable\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingLabel\:\:setStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingLabelTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRateItem\:\:getIsIncluded\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateItemTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRateItem\:\:getPrice\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateItemTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRateItem\:\:setIsIncluded\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateItemTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRateItem\:\:setPrice\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateItemTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:addItem\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:addItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getCarrier\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getDeliveryDays\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getIsTrackable\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getPackageType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getService\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:getTotal\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:setCarrier\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:setDeliveryDays\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:setIsTrackable\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:setItems\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:setPackageType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:setService\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingRate\:\:setTotal\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingRateTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingService\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingService\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingService\:\:setLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingService\:\:setName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Models\\ShippingService\:\:toArray\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\ShippingServiceTest\:\:testCanAccessTraitMethods\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Models\\ShippingServiceTest\:\:testCanConvertToArray\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/ShippingServiceTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\CalculateShippingRatesOperation\:\:getCarriers\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/CalculateShippingRatesOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\CalculateShippingRatesOperation\:\:getShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/CalculateShippingRatesOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\CalculateShippingRatesOperation\:\:getShippingRates\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/CalculateShippingRatesOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\CalculateShippingRatesOperation\:\:setCarriers\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/CalculateShippingRatesOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\CalculateShippingRatesOperation\:\:setShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/CalculateShippingRatesOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\CalculateShippingRatesOperation\:\:setShippingRates\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/CalculateShippingRatesOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetDashboardUrlOperation\:\:getAccount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetDashboardUrlOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetDashboardUrlOperation\:\:getDashboardUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetDashboardUrlOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetDashboardUrlOperation\:\:getReturnUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetDashboardUrlOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetDashboardUrlOperation\:\:setAccount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetDashboardUrlOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetDashboardUrlOperation\:\:setDashboardUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetDashboardUrlOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetDashboardUrlOperation\:\:setReturnUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetDashboardUrlOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetShippingRateOperation\:\:getShippingRate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetShippingRateOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetShippingRateOperation\:\:getShippingRateId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetShippingRateOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetShippingRateOperation\:\:setShippingRate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetShippingRateOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetShippingRateOperation\:\:setShippingRateId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetShippingRateOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetTrackingStatusOperation\:\:getTrackingNumber\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetTrackingStatusOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetTrackingStatusOperation\:\:getTrackingUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetTrackingStatusOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetTrackingStatusOperation\:\:setTrackingNumber\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetTrackingStatusOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\GetTrackingStatusOperation\:\:setTrackingUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/GetTrackingStatusOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\ListCarriersOperation\:\:getCarriers\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/ListCarriersOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\ListCarriersOperation\:\:setCarriers\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/ListCarriersOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\PurchaseShippingLabelsOperation\:\:getFormat\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/PurchaseShippingLabelsOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\PurchaseShippingLabelsOperation\:\:getLayout\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/PurchaseShippingLabelsOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\PurchaseShippingLabelsOperation\:\:getShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/PurchaseShippingLabelsOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\PurchaseShippingLabelsOperation\:\:setFormat\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/PurchaseShippingLabelsOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\PurchaseShippingLabelsOperation\:\:setLayout\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/PurchaseShippingLabelsOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Operations\\PurchaseShippingLabelsOperation\:\:setShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Operations/PurchaseShippingLabelsOperationTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\AbstractTrackingUrlBuilder\:\:getTrackingUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AbstractTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\AbstractTrackingUrlBuilderTest\:\:providerCanGetTrackingUrl\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Providers/AbstractTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\AustraliaPost\\AustraliaPostProvider\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/AustraliaPostProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\AustraliaPost\\AustraliaPostProviderTest\:\:testHasShippingTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/AustraliaPostProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\AustraliaPost\\Gateways\\AustraliaPostTrackingGateway\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/Gateways/AustraliaPostTrackingGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\AustraliaPost\\Gateways\\AustraliaPostTrackingGatewayTest\:\:testCanBuildTrackingUrls\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/Gateways/AustraliaPostTrackingGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\AustraliaPost\\Tracking\\AustraliaPostTrackingUrlBuilder\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/Tracking/AustraliaPostTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\AustraliaPost\\Tracking\\AustraliaPostTrackingUrlBuilderTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/AustraliaPost/Tracking/AustraliaPostTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\CanadaPost\\CanadaPostProvider\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/CanadaPostProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\CanadaPost\\CanadaPostProviderTest\:\:testHasShippingTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/CanadaPostProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\CanadaPost\\Gateways\\CanadaPostTrackingGateway\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/Gateways/CanadaPostTrackingGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\CanadaPost\\Gateways\\CanadaPostTrackingGatewayTest\:\:testCanBuildTrackingUrls\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/Gateways/CanadaPostTrackingGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\CanadaPost\\Tracking\\CanadaPostTrackingUrlBuilder\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/Tracking/CanadaPostTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\CanadaPost\\Tracking\\CanadaPostTrackingUrlBuilderTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/CanadaPost/Tracking/CanadaPostTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\DHL\\DHLProvider\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/DHL/DHLProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\DHL\\DHLProviderTest\:\:testHasShippingTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/DHL/DHLProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\DHL\\Gateways\\DHLTrackingGateway\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/DHL/Gateways/DHLTrackingGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\DHL\\Gateways\\DHLTrackingGatewayTest\:\:testCanBuildTrackingUrls\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/DHL/Gateways/DHLTrackingGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\DHL\\Tracking\\DHLTrackingUrlBuilder\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/DHL/Tracking/DHLTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\DHL\\Tracking\\DHLTrackingUrlBuilderTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/DHL/Tracking/DHLTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\FedEx\\FedExProvider\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/FedEx/FedExProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\FedEx\\FedExProviderTest\:\:testHasShippingTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/FedEx/FedExProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\FedEx\\Gateways\\FedExTrackingGateway\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/FedEx/Gateways/FedExTrackingGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\FedEx\\Gateways\\FedExTrackingGatewayTest\:\:testCanBuildTrackingUrls\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/FedEx/Gateways/FedExTrackingGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\FedEx\\Tracking\\FedExTrackingUrlBuilder\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/FedEx/Tracking/FedExTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\FedEx\\Tracking\\FedExTrackingUrlBuilderTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/FedEx/Tracking/FedExTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\OnTrac\\Gateways\\OnTracTrackingGateway\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/OnTrac/Gateways/OnTracTrackingGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\OnTrac\\Gateways\\OnTracTrackingGatewayTest\:\:testCanBuildTrackingUrls\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/OnTrac/Gateways/OnTracTrackingGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\OnTrac\\OnTracProvider\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/OnTrac/OnTracProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\OnTrac\\OnTracProviderTest\:\:testHasShippingTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/OnTrac/OnTracProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\OnTrac\\Tracking\\OnTracTrackingUrlBuilder\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/OnTrac/Tracking/OnTracTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\OnTrac\\Tracking\\OnTracTrackingUrlBuilderTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/OnTrac/Tracking/OnTracTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\UPS\\Gateways\\UPSTrackingGateway\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/UPS/Gateways/UPSTrackingGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\UPS\\Gateways\\UPSTrackingGatewayTest\:\:testCanBuildTrackingUrls\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/UPS/Gateways/UPSTrackingGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\UPS\\Tracking\\UPSTrackingUrlBuilder\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/UPS/Tracking/UPSTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\UPS\\Tracking\\UPSTrackingUrlBuilderTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/UPS/Tracking/UPSTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\UPS\\UPSProvider\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/UPS/UPSProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\UPS\\UPSProviderTest\:\:testHasShippingTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/UPS/UPSProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\USPS\\Gateways\\USPSTrackingGateway\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/USPS/Gateways/USPSTrackingGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\USPS\\Gateways\\USPSTrackingGatewayTest\:\:testCanBuildTrackingUrls\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/USPS/Gateways/USPSTrackingGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\USPS\\Tracking\\USPSTrackingUrlBuilder\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/USPS/Tracking/USPSTrackingUrlBuilderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\USPS\\Tracking\\USPSTrackingUrlBuilderTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/USPS/Tracking/USPSTrackingUrlBuilderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Providers\\USPS\\USPSProvider\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/USPS/USPSProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Providers\\USPS\\USPSProviderTest\:\:testHasShippingTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/USPS/USPSProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Shipping\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/ShippingTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Shipping\:\:setProviders\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/ShippingTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\ShippingTest\:\:testCanSetProviders\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/ShippingTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanBuildTrackingUrlTrait\:\:getTrackingUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanBuildTrackingUrlTrait\:\:getTrackingUrlBuilder\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanBuildTrackingUrlTrait\:\:getTrackingUrlTemplate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^Call to an undefined method object\:\:getTrackingUrl\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^Call to an undefined method object\:\:getTrackingUrlTemplate\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\CanBuildTrackingUrlTraitTest\:\:providerTrackingUrlBuilder\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\CanBuildTrackingUrlTraitTest\:\:testCanGetBuilderInstance\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\CanBuildTrackingUrlTraitTest\:\:testCanGetTrackingUrl\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\CanBuildTrackingUrlTraitTest\:\:testCanGetTrackingUrlTemplate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^Method class@anonymous/tests/Unit/Traits/CanBuildTrackingUrlTraitTest\.php\:91\:\:getTrackingUrlTemplate\(\) should return string but returns null\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^PHPDoc tag @return with type object is not subtype of native type GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\TrackingUrlBuilderContract\.$#'
+			identifier: return.phpDocType
+			count: 1
+			path: tests/Unit/Traits/CanBuildTrackingUrlTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanCalculateShippingRatesTrait\:\:list\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanCalculateShippingRatesTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanCalculateShippingRatesTraitTest\.php\:26\:\:calculate\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\CalculateShippingRatesOperationContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanCalculateShippingRatesTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanCancelShippingLabelsTrait\:\:cancel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanCancelShippingLabelsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanCancelShippingLabelsTraitTest\.php\:82\:\:cancel\(\) should return array\<mixed\> but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanCancelShippingLabelsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanConnectShippingAccountTrait\:\:connect\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanConnectShippingAccountTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanConnectShippingAccountTraitTest\.php\:32\:\:connect\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\AccountContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanConnectShippingAccountTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanCreateShippingLabelsTrait\:\:create\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanCreateShippingLabelsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanCreateShippingLabelsTraitTest\.php\:83\:\:create\(\) should return array\<mixed\> but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanCreateShippingLabelsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanDisconnectShippingAccountTrait\:\:disconnect\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanDisconnectShippingAccountTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanDisconnectShippingAccountTraitTest\.php\:34\:\:disconnect\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Models\\Contracts\\AccountContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanDisconnectShippingAccountTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanEstimateShippingRatesTrait\:\:estimate\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanEstimateShippingRatesTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanEstimateShippingRatesTraitTest\.php\:82\:\:estimate\(\) should return array\<mixed\> but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanEstimateShippingRatesTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanGetDashboardUrlTrait\:\:getDashboardUrl\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanGetDashboardUrlTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanGetDashboardUrlTraitTest\.php\:31\:\:getDashboardUrl\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GetDashboardUrlOperationContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanGetDashboardUrlTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanGetShippingRatesTrait\:\:get\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanGetShippingRatesTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanGetShippingRatesTraitTest\.php\:28\:\:get\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GetShippingRateOperationContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanGetShippingRatesTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanGetTrackingStatusTrait\:\:status\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanGetTrackingStatusTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanGetTrackingStatusTraitTest\.php\:31\:\:status\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\GetTrackingStatusOperationContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanGetTrackingStatusTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanListShippingCarriersTrait\:\:list\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanListShippingCarriersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanListShippingCarriersTraitTest\.php\:31\:\:list\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\ListCarriersOperationContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanListShippingCarriersTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanPurchaseShippingLabelsTrait\:\:purchase\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanPurchaseShippingLabelsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanPurchaseShippingLabelsTraitTest\.php\:34\:\:purchase\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\PurchaseShippingLabelsOperationContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanPurchaseShippingLabelsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanValidateTrackingNumberTrait\:\:getTrackingNumberValidator\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanValidateTrackingNumberTrait\:\:isValidTrackingNumber\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: '#^Call to an undefined method object\:\:isValidTrackingNumber\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\CanValidateTrackingNumberTraitTest\:\:providerTrackingNumberValidator\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\CanValidateTrackingNumberTraitTest\:\:testCanGetValidatorInstance\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\CanValidateTrackingNumberTraitTest\:\:testCanValidateTrackingNumber\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanValidateTrackingNumberTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\CanVoidShippingLabelsTrait\:\:void\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanVoidShippingLabelsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Gateways\\AbstractGateway@anonymous/tests/Unit/Traits/CanVoidShippingLabelsTraitTest\.php\:34\:\:void\(\) should return GoDaddy\\WordPress\\MWC\\Shipping\\Contracts\\VoidShippingLabelOperationContract but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: tests/Unit/Traits/CanVoidShippingLabelsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasAccountTrait\:\:getAccount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasAccountTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasAccountTrait\:\:setAccount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasAccountTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasPackageTrait\:\:getShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasPackageTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasPackageTrait\:\:setShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasPackageTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShipmentTrait\:\:getShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasShipmentTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShipmentTrait\:\:setShipment\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasShipmentTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShippingCarriersGatewayTrait\:\:carriers\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasShippingCarriersGatewayTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShippingLabelsTrait\:\:labels\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasShippingLabelsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:labels\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/HasShippingLabelsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\HasShippingLabelsTraitTest\:\:testCanGetLabelsGateway\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/HasShippingLabelsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShippingRatesTrait\:\:rates\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasShippingRatesTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:rates\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/HasShippingRatesTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\HasShippingRatesTraitTest\:\:testCanGetRatesGateway\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/HasShippingRatesTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Shipping\\Traits\\HasShippingTrackingTrait\:\:tracking\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasShippingTrackingTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:tracking\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/HasShippingTrackingTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Shipping\\Tests\\Unit\\Traits\\HasShippingTrackingTraitTest\:\:testCanGetTracking\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/HasShippingTrackingTraitTest.php

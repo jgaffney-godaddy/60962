@@ -1,0 +1,2923 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Contracts\\GatewayContract\:\:doRequest\(\) has parameter \$data with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Contracts/GatewayContract.php
+
+		-
+			message: '#^Call to an undefined method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setLastFour\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setCreatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setType\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setUpdatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\BankAccountPaymentMethodAdapter\:\:convertFromSource\(\) should return GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\BankAccountPaymentMethod but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$accountType of static method GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:getBankAccountType\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$customerId of method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setCustomerId\(\) expects string, int given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$datetime of class DateTime constructor expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$id of method WC_Data\:\:set_id\(\) expects int, int\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$last4 of method WC_Payment_Token_ECheck\:\:set_last4\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$token of method WC_Payment_Token\:\:set_token\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$user_id of method WC_Payment_Token\:\:set_user_id\(\) expects int, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapter.php
+
+		-
+			message: '#^Call to an undefined method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setBrand\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setBin\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setCreatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setExpirationMonth\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setExpirationYear\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setLastFour\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot call method setUpdatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CardPaymentMethodAdapter\:\:convertFromSource\(\) should return GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$customerId of method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setCustomerId\(\) expects string, int given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$datetime of class DateTime constructor expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$id of method WC_Data\:\:set_id\(\) expects int, int\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$last4 of method WC_Payment_Token_CC\:\:set_last4\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$month of method WC_Payment_Token_CC\:\:set_expiry_month\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$token of method WC_Payment_Token\:\:set_token\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$user_id of method WC_Payment_Token\:\:set_user_id\(\) expects int, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$year of method WC_Payment_Token_CC\:\:set_expiry_year\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^Parameter \#2 \$value of method WC_Data\:\:update_meta_data\(\) expects array\|string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapter.php
+
+		-
+			message: '#^If condition is always true\.$#'
+			identifier: if.alwaysTrue
+			count: 2
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$display_name of method WC_Customer\:\:set_display_name\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$first_name of method WC_Customer\:\:set_first_name\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$id of method WC_Data\:\:set_id\(\) expects int, int\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$last_name of method WC_Customer\:\:set_last_name\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$remoteId of method GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:setRemoteId\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$source of class GoDaddy\\WordPress\\MWC\\Common\\DataSources\\WooCommerce\\Adapters\\AddressAdapter constructor expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 2
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$username of method WC_Customer\:\:set_username\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_address_1\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_address_2\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_city\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_company\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_country\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_first_name\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_last_name\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_postcode\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_billing_state\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_email\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_address_1\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_address_2\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_city\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_company\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_country\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_first_name\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_last_name\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_postcode\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#1 \$value of method WC_Customer\:\:set_shipping_state\(\) expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Parameter \#2 \$value of method WC_Data\:\:update_meta_data\(\) expects array\|string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/DataSources/WooCommerce/Adapters/CustomerAdapter.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Common\\DataSources\\Contracts\\DataSourceAdapterContract\:\:convertToSource\(\) invoked with 1 parameter, 0 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Gateways\\AbstractGateway\:\:doRequest\(\) should return GoDaddy\\WordPress\\MWC\\Common\\Http\\Response but returns GoDaddy\\WordPress\\MWC\\Common\\Http\\Contracts\\ResponseContract\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: '#^Parameter \#1 \$message of class GoDaddy\\WordPress\\MWC\\Payments\\Exceptions\\FailedResponseException constructor expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: '#^Parameter \#1 \$request of method GoDaddy\\WordPress\\MWC\\Payments\\Gateways\\AbstractGateway\:\:doRequest\(\) expects GoDaddy\\WordPress\\MWC\\Common\\Http\\Request, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: '#^Parameter \#1 \$response of class GoDaddy\\WordPress\\MWC\\Payments\\Events\\ProviderResponseEvent constructor expects GoDaddy\\WordPress\\MWC\\Common\\Http\\Response, GoDaddy\\WordPress\\MWC\\Common\\Http\\Contracts\\ResponseContract given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Gateways/AbstractGateway.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:provider\(\) should return GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider but returns mixed\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:setProviders\(\) has parameter \$providersClasses with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: '#^Parameter \#1 \$object_or_string of function is_subclass_of expects object\|string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: '#^Parameter \#1 \$providersClasses of method GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:setProviders\(\) expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: src/Payments.php
+
+		-
+			message: '#^Binary operation "\." between ''Call to undefined…'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:__call\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:__call\(\) has parameter \$arguments with no type specified\.$#'
+			identifier: missingType.parameter
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:__call\(\) has parameter \$name with no type specified\.$#'
+			identifier: missingType.parameter
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:__call\(\) throws checked exception BadMethodCallException but it''s missing from the PHPDoc @throws tag\.$#'
+			identifier: missingType.checkedException
+			count: 1
+			path: src/Providers/AbstractProvider.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\AdaptsCustomersTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/AdaptsCustomersTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\AdaptsPaymentMethodsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/AdaptsPaymentMethodsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\AdaptsRequestsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/AdaptsRequestsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanCreateCustomersTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanCreateCustomersTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanCreatePaymentMethodsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanCreatePaymentMethodsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanDeleteCustomersTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanDeleteCustomersTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanDeletePaymentMethodsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanDeletePaymentMethodsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetCustomersTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanGetCustomersTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetPaymentMethodsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanGetPaymentMethodsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssueCapturesTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanIssueCapturesTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssuePaymentsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanIssuePaymentsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssueRefundsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanIssueRefundsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssueVoidsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanIssueVoidsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanUpdateCustomersTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanUpdateCustomersTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanUpdatePaymentMethodsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/CanUpdatePaymentMethodsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\HasPaymentMethodsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/HasPaymentMethodsTrait.php
+
+		-
+			message: '#^Trait GoDaddy\\WordPress\\MWC\\Payments\\Traits\\HasTransactionsTrait is used zero times and is not analysed\.$#'
+			identifier: trait.unused
+			count: 1
+			path: src/Traits/HasTransactionsTrait.php
+
+		-
+			message: '#^Call to an undefined method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setType\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''WC_Payment_Token_ECheck'' and WC_Payment_Token_ECheck will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method format\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getCreatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getCustomerId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getLastFour\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getRemoteId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getTimestamp\(\) on DateTime\|null\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getUpdatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setCreatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setCustomerId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setLastFour\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setProviderName\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setRemoteId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setUpdatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\DataSources\\WooCommerce\\Adapters\\BankAccountPaymentMethodAdapterTest\:\:testCanConvertFromSource\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\DataSources\\WooCommerce\\Adapters\\BankAccountPaymentMethodAdapterTest\:\:testCanConvertToSource\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^PHPDoc tag @param for parameter \$type with type GoDaddy\\WordPress\\MWC\\Payments\\Contracts\\BankAccountTypeContract\|null is not subtype of native type GoDaddy\\WordPress\\MWC\\Payments\\Contracts\\BankAccountTypeContract\.$#'
+			identifier: parameter.phpDocType
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Parameter \#1 \$paymentMethod of method GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\BankAccountPaymentMethodAdapter\:\:convertToSource\(\) expects GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\BankAccountPaymentMethod\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Parameter \#1 \$token of class GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\BankAccountPaymentMethodAdapter constructor expects WC_Payment_Token_ECheck, Mockery\\MockInterface&WC_Payment_Token given\.$#'
+			identifier: argument.type
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/BankAccountPaymentMethodAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CardPaymentMethodAdapter\:\:convertFromSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CardPaymentMethodAdapter\:\:convertToSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Call to an undefined method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setBin\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Call to an undefined method object\:\:getName\(\)\.$#'
+			identifier: method.notFound
+			count: 3
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''WC_Payment_Token_CC'' and WC_Payment_Token_CC will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method format\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getBin\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getBrand\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getCreatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getCustomerId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getExpirationMonth\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getExpirationYear\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getLastFour\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getName\(\) on GoDaddy\\WordPress\\MWC\\Payments\\Contracts\\CardBrandContract\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getName\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getRemoteId\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getTimestamp\(\) on DateTime\|null\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method getUpdatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setBrand\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setCreatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setExpirationMonth\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setExpirationYear\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setLastFour\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setProviderName\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Cannot call method setUpdatedAt\(\) on mixed\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Parameter \#1 \$customerId of method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setCustomerId\(\) expects string, int given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Parameter \#1 \$paymentMethod of method GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CardPaymentMethodAdapter\:\:convertToSource\(\) expects GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^Parameter \#1 \$token of class GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CardPaymentMethodAdapter constructor expects WC_Payment_Token_CC, Mockery\\MockInterface&WC_Payment_Token given\.$#'
+			identifier: argument.type
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CardPaymentMethodAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:convertBasicInfoFromSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:convertBasicInfoToSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:convertFromSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:convertToSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:convertUserInfoToSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:getEmailAddressFromSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:getEmailForSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:getFirstNameForSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:getFirstNameFromSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:getLastNameForSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\DataSources\\WooCommerce\\Adapters\\CustomerAdapter\:\:getLastNameFromSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''WC_Customer'' and WC_Customer will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\DataSources\\WooCommerce\\Adapters\\CustomerAdapterTest\:\:testCanConvertToSource\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/DataSources/WooCommerce/Adapters/CustomerAdapterTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Events\\AbstractPaymentMethodEvent\:\:getPaymentMethod\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/AbstractPaymentMethodEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\AbstractPaymentMethodEventTest\:\:providerGetPaymentMethod\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Events/AbstractPaymentMethodEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\AbstractPaymentMethodEventTest\:\:testCanGetPaymentMethod\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/AbstractPaymentMethodEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Events\\AbstractTransactionEvent\:\:getTransaction\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/AbstractTransactionEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\AbstractTransactionEventTest\:\:providerGetTransaction\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Events/AbstractTransactionEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\AbstractTransactionEventTest\:\:testCanGetTransaction\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/AbstractTransactionEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Events\\CaptureTransactionEvent\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/CaptureTransactionEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\CaptureTransactionEventTest\:\:testCanSetTransaction\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/CaptureTransactionEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Events\\CreatePaymentMethodEvent\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/CreatePaymentMethodEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\CreatePaymentMethodEventTest\:\:providerCanSetPaymentMethod\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Events/CreatePaymentMethodEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\CreatePaymentMethodEventTest\:\:testCanSetPaymentMethod\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/CreatePaymentMethodEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Events\\PaymentTransactionEvent\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/PaymentTransactionEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\PaymentTransactionEventTest\:\:testCanSetTransaction\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/PaymentTransactionEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\ProviderRequestEventTest\:\:testCanGetRequest\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/ProviderRequestEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\ProviderRequestEventTest\:\:testCanGetRequest\(\) throws checked exception Exception but it''s missing from the PHPDoc @throws tag\.$#'
+			identifier: missingType.checkedException
+			count: 1
+			path: tests/Unit/Events/ProviderRequestEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\ProviderResponseEventTest\:\:testCanGetResponse\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/ProviderResponseEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Events\\RefundTransactionEvent\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/RefundTransactionEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\RefundTransactionEventTest\:\:testCanSetTransaction\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/RefundTransactionEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Events\\VoidTransactionEvent\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Events/VoidTransactionEventTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Events\\VoidTransactionEventTest\:\:testCanSetTransaction\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Events/VoidTransactionEventTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Gateways\\AbstractGateway\:\:doRequest\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\AdaptsRequestsTrait\:\:doAdaptedRequest\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Common\\DataSources\\Contracts\\DataSourceAdapterContract@anonymous/tests/Unit/Gateways/AbstractGatewayTest\.php\:108\:\:convertFromSource\(\) throws checked exception Exception but it''s missing from the PHPDoc @throws tag\.$#'
+			identifier: missingType.checkedException
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Common\\DataSources\\Contracts\\DataSourceAdapterContract@anonymous/tests/Unit/Gateways/AbstractGatewayTest\.php\:108\:\:convertToSource\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Gateways\\AbstractGatewayTest\:\:testCanDoAdaptedRequest\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Gateways\\AbstractGatewayTest\:\:testCanDoRequest\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Gateways\\AbstractGatewayTest\:\:testCanDoRequestWithException\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Gateways/AbstractGatewayTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:getId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:getPaymentMethods\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:getRemoteId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:getUser\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:save\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:setId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:setPaymentMethods\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:setRemoteId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:setUser\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:toArray\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:update\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^Cannot call method getEmail\(\) on GoDaddy\\WordPress\\MWC\\Common\\Models\\User\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\CustomerTest\:\:providerCanBroadcastEvent\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^Missing call to parent\:\:setUp\(\) method\.$#'
+			identifier: phpunit.callParent
+			count: 1
+			path: tests/Unit/Models/CustomerTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\CancelledOrderStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CancelledOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\CancelledOrderStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CancelledOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\CancelledOrderStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CancelledOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\CancelledOrderStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CancelledOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\CompletedOrderStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CompletedOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\CompletedOrderStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CompletedOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\CompletedOrderStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CompletedOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\CompletedOrderStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/CompletedOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\FailedOrderStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/FailedOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\FailedOrderStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/FailedOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\FailedOrderStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/FailedOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\FailedOrderStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/FailedOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\HeldOrderStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/HeldOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\HeldOrderStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/HeldOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\HeldOrderStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/HeldOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\HeldOrderStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/HeldOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\PendingOrderStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/PendingOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\PendingOrderStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/PendingOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\PendingOrderStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/PendingOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\PendingOrderStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/PendingOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\ProcessingOrderStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/ProcessingOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\ProcessingOrderStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/ProcessingOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\ProcessingOrderStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/ProcessingOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\ProcessingOrderStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/ProcessingOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\RefundedOrderStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/RefundedOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Orders\\Statuses\\RefundedOrderStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/RefundedOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\RefundedOrderStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/RefundedOrderStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Orders\\Statuses\\RefundedOrderStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Orders/Statuses/RefundedOrderStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:getCreatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:getCustomerId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:getId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:getRemoteId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:getUpdatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setCreatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setCustomerId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setRemoteId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:setUpdatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\AbstractPaymentMethodTest\:\:testCanGetAndSetCreatedAt\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\AbstractPaymentMethodTest\:\:testCanGetAndSetCustomerId\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\AbstractPaymentMethodTest\:\:testCanGetAndSetId\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\AbstractPaymentMethodTest\:\:testCanGetAndSetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\AbstractPaymentMethodTest\:\:testCanGetAndSetRemoteId\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\AbstractPaymentMethodTest\:\:testCanGetAndSetUpdatedAt\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^Missing call to parent\:\:setUp\(\) method\.$#'
+			identifier: phpunit.callParent
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/AbstractPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\BankAccountPaymentMethod\:\:getLastFour\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\BankAccountPaymentMethod\:\:getType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\BankAccountPaymentMethod\:\:setLastFour\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\BankAccountPaymentMethod\:\:setType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\BankAccountPaymentMethodTest\:\:testCanGetAndSetLastFour\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\BankAccountPaymentMethodTest\:\:testCanGetAndSetType\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^Missing call to parent\:\:setUp\(\) method\.$#'
+			identifier: phpunit.callParent
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^PHPDoc tag @param for parameter \$label with type string\|null is not subtype of native type string\.$#'
+			identifier: parameter.phpDocType
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^PHPDoc tag @param for parameter \$name with type string\|null is not subtype of native type string\.$#'
+			identifier: parameter.phpDocType
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccountPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\BankAccounts\\Types\\CheckingBankAccountTypeTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/CheckingBankAccountTypeTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\BankAccounts\\Types\\CheckingBankAccountTypeTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/CheckingBankAccountTypeTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\BankAccounts\\Types\\SavingsBankAccountTypeTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/SavingsBankAccountTypeTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\BankAccounts\\Types\\SavingsBankAccountTypeTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/BankAccounts/Types/SavingsBankAccountTypeTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:getBin\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:getBrand\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:getExpirationMonth\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:getExpirationYear\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:getLastFour\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:setBin\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:setBrand\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:setExpirationMonth\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:setExpirationYear\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:setLastFour\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\CardPaymentMethodTest\:\:testCanGetAndSetBin\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\CardPaymentMethodTest\:\:testCanGetAndSetBrand\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\CardPaymentMethodTest\:\:testCanGetAndSetExpirationMonth\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\CardPaymentMethodTest\:\:testCanGetAndSetExpirationYear\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\CardPaymentMethodTest\:\:testCanGetAndSetLastFour\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^Parameter \#1 \$brand of method GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\CardPaymentMethod\:\:setBrand\(\) expects GoDaddy\\WordPress\\MWC\\Payments\\Contracts\\CardBrandContract, object given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^Parameter \#1 \$expected of method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) expects class\-string\<object\>, string given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/CardPaymentMethodTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\AmericanExpressCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\AmericanExpressCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\AmericanExpressCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\AmericanExpressCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/AmericanExpressCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\CreditCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/CreditCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\CreditCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/CreditCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\CreditCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/CreditCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\CreditCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/CreditCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\DebitCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DebitCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\DebitCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DebitCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\DebitCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DebitCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\DebitCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DebitCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\DinersClubCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DinersClubCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\DinersClubCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DinersClubCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\DinersClubCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DinersClubCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\DinersClubCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DinersClubCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\DiscoverCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DiscoverCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\DiscoverCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DiscoverCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\DiscoverCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DiscoverCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\DiscoverCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/DiscoverCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\MaestroCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MaestroCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\MaestroCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MaestroCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\MaestroCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MaestroCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\MaestroCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MaestroCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\MastercardCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MastercardCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\MastercardCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MastercardCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\MastercardCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MastercardCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\MastercardCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/MastercardCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\VisaCardBrand\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/VisaCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\Cards\\Brands\\VisaCardBrand\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/VisaCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\VisaCardBrandTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/VisaCardBrandTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\PaymentMethods\\Cards\\Brands\\VisaCardBrandTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/PaymentMethods/Cards/Brands/VisaCardBrandTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getCreatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getCustomer\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getNotes\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getOrder\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getParentType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getPaymentMethod\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getProviderName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getRemoteId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getRemoteParentId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getResultCode\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getResultMessage\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:getUpdatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setCreatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setCustomer\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setNotes\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setOrder\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setParentType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setPaymentMethod\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setProviderName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setRemoteId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setRemoteParentId\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setResultCode\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setResultMessage\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setSource\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setStatus\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:setUpdatedAt\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\AbstractTransaction\:\:toArray\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^Call to an undefined method object\:\:getType\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\AbstractTransactionTest\:\:providerForTestProperties\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\AbstractTransactionTest\:\:testCanConvertToArray\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\AbstractTransactionTest\:\:testCanGetType\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/AbstractTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\AuthorizationTransactionTest\:\:providerForTestProperties\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Models/Transactions/AuthorizationTransactionTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\Transactions\\\\AbstractTransaction'' and GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\CaptureTransaction will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/Models/Transactions/CaptureTransactionTest.php
+
+		-
+			message: '#^Class already @covers \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\CaptureTransaction so the method @covers is redundant\.$#'
+			identifier: phpunit.coversDuplicate
+			count: 1
+			path: tests/Unit/Models/Transactions/CaptureTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\CaptureTransactionTest\:\:testIsAbstractInstance\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/CaptureTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:getAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:getCapturedAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:getRefundedAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:getRemoteCaptureIds\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:getRemoteRefundIds\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:getRemoteVoidIds\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:getTipAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:isAuthOnly\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setAuthOnly\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setCapturedAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setRefundedAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setRemoteCaptureIds\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setRemoteRefundIds\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setRemoteVoidIds\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\PaymentTransaction\:\:setTipAmount\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetAmount\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetAuthOnly\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetCapturedAmount\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetRefundAmount\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetRemoteCaptureIds\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetRemoteRefundIds\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetRemoteVoidIds\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\PaymentTransactionTest\:\:testCanSetAndGetTipAmount\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^Missing call to parent\:\:setUp\(\) method\.$#'
+			identifier: phpunit.callParent
+			count: 1
+			path: tests/Unit/Models/Transactions/PaymentTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\RefundTransaction\:\:getReason\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/RefundTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\RefundTransaction\:\:setReason\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/RefundTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\RefundTransactionTest\:\:testCanGetReason\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/RefundTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\RefundTransactionTest\:\:testCanSetReason\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/RefundTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\ApprovedTransactionStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/ApprovedTransactionStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\ApprovedTransactionStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/ApprovedTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\ApprovedTransactionStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/ApprovedTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\ApprovedTransactionStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/ApprovedTransactionStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\DeclinedTransactionStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/DeclinedTransactionStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\DeclinedTransactionStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/DeclinedTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\DeclinedTransactionStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/DeclinedTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\DeclinedTransactionStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/DeclinedTransactionStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\HeldTransactionStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/HeldTransactionStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\HeldTransactionStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/HeldTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\HeldTransactionStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/HeldTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\HeldTransactionStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/HeldTransactionStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\PendingTransactionStatus\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/PendingTransactionStatusTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\Statuses\\PendingTransactionStatus\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/PendingTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\PendingTransactionStatusTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/PendingTransactionStatusTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\Statuses\\PendingTransactionStatusTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/Statuses/PendingTransactionStatusTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\Transactions\\\\RefundTransaction'' and GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\VoidTransaction will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/Models/Transactions/VoidTransactionTest.php
+
+		-
+			message: '#^Class already @covers \\GoDaddy\\WordPress\\MWC\\Payments\\Models\\Transactions\\VoidTransaction so the method @covers is redundant\.$#'
+			identifier: phpunit.coversDuplicate
+			count: 1
+			path: tests/Unit/Models/Transactions/VoidTransactionTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Models\\Transactions\\VoidTransactionTest\:\:testIsChildInstance\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Models/Transactions/VoidTransactionTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:__construct\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:getBankAccountType\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:getCardBrand\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:getProviders\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:provider\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Payments\:\:setProviders\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 2
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\PaymentsTest\:\:providerCanGetAccountType\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\PaymentsTest\:\:providerCanGetCardBrand\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\PaymentsTest\:\:testCanGetProvider\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\PaymentsTest\:\:testCanProvider\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\PaymentsTest\:\:testCanSetProviders\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\PaymentsTest\:\:testConstructor\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^Parameter \#1 \$expected of method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) expects class\-string\<object\>, string given\.$#'
+			identifier: argument.type
+			count: 2
+			path: tests/Unit/PaymentsTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:__call\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:getDescription\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:getLabel\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider\:\:getName\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^Call to an undefined method GoDaddy\\WordPress\\MWC\\Payments\\Providers\\AbstractProvider&PHPUnit\\Framework\\MockObject\\MockObject\:\:nonExistantMethod\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Providers\\AbstractProviderTest\:\:testCanGetDescription\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Providers\\AbstractProviderTest\:\:testCanGetLabel\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Providers\\AbstractProviderTest\:\:testCanGetName\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Providers\\AbstractProviderTest\:\:testWrongMethodRaisesException\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^Missing call to parent\:\:setUp\(\) method\.$#'
+			identifier: phpunit.callParent
+			count: 1
+			path: tests/Unit/Providers/AbstractProviderTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanCreateCustomersTrait\:\:create\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanCreateCustomersTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:create\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanCreateCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanCreateCustomersTraitTest\:\:testCanCreate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanCreateCustomersTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanCreatePaymentMethodsTrait\:\:create\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:create\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Common\\DataSources\\Contracts\\DataSourceAdapterContract@anonymous/tests/Unit/Traits/CanCreatePaymentMethodsTraitTest\.php\:55\:\:convertFromSource\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Common\\DataSources\\Contracts\\DataSourceAdapterContract@anonymous/tests/Unit/Traits/CanCreatePaymentMethodsTraitTest\.php\:55\:\:convertToSource\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanCreatePaymentMethodsTraitTest\:\:testCanCreate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanCreatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanDeleteCustomersTrait\:\:delete\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanDeleteCustomersTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:delete\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanDeleteCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanDeleteCustomersTraitTest\:\:testCanDelete\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanDeleteCustomersTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanDeletePaymentMethodsTrait\:\:delete\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanDeletePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:delete\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanDeletePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanDeletePaymentMethodsTraitTest\:\:testCanDelete\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanDeletePaymentMethodsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetCustomersTrait\:\:get\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetCustomersTrait\:\:getAll\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\Customer'' and GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertIsArray\(\) with array\<GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\> will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Call to method get\(\) on an unknown class GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetCustomersTrait\.$#'
+			identifier: class.notFound
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Call to method getAll\(\) on an unknown class GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetCustomersTrait\.$#'
+			identifier: class.notFound
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Cannot access offset ''id'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetCustomersTraitTest\:\:getCustomerAdapterMock\(\) has parameter \$body with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetCustomersTraitTest\:\:getTraitMock\(\) has invalid return type GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetCustomersTrait\.$#'
+			identifier: return.trait
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetCustomersTraitTest\:\:getTraitMock\(\) has parameter \$params with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetCustomersTraitTest\:\:getTraitMock\(\) has parameter \$response with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetCustomersTraitTest\:\:getTraitMock\(\) never returns GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetCustomersTrait so it can be removed from the return type\.$#'
+			identifier: return.unusedType
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetCustomersTraitTest\:\:testCanDoGetAllRequest\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetCustomersTraitTest\:\:testCanDoGetRequest\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Method class@anonymous/tests/Unit/Traits/CanGetCustomersTraitTest\.php\:82\:\:__construct\(\) has parameter \$body with no type specified\.$#'
+			identifier: missingType.parameter
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Parameter \#1 \$id of method GoDaddy\\WordPress\\MWC\\Payments\\Models\\Customer\:\:setId\(\) expects int, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^Property class@anonymous/tests/Unit/Traits/CanGetCustomersTraitTest\.php\:82\:\:\$source has no type specified\.$#'
+			identifier: missingType.property
+			count: 1
+			path: tests/Unit/Traits/CanGetCustomersTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetPaymentMethodsTrait\:\:get\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetPaymentMethodsTrait\:\:getAll\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Access to an undefined property GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\:\:\$body\.$#'
+			identifier: property.notFound
+			count: 2
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''GoDaddy\\\\WordPress\\\\MWC\\\\Payments\\\\Models\\\\PaymentMethods\\\\AbstractPaymentMethod'' and GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertIsArray\(\) with array\<GoDaddy\\WordPress\\MWC\\Payments\\Models\\PaymentMethods\\AbstractPaymentMethod\> will always evaluate to true\.$#'
+			identifier: method.alreadyNarrowedType
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to method get\(\) on an unknown class GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetPaymentMethodsTrait\.$#'
+			identifier: class.notFound
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to method getAll\(\) on an unknown class GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetPaymentMethodsTrait\.$#'
+			identifier: class.notFound
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetPaymentMethodsTraitTest\:\:getTraitMock\(\) has invalid return type GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetPaymentMethodsTrait\.$#'
+			identifier: return.trait
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetPaymentMethodsTraitTest\:\:getTraitMock\(\) has parameter \$params with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetPaymentMethodsTraitTest\:\:getTraitMock\(\) has parameter \$response with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetPaymentMethodsTraitTest\:\:getTraitMock\(\) never returns GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanGetPaymentMethodsTrait so it can be removed from the return type\.$#'
+			identifier: return.unusedType
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetPaymentMethodsTraitTest\:\:testCanDoGetAllRequest\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanGetPaymentMethodsTraitTest\:\:testCanDoGetRequest\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method class@anonymous/tests/Unit/Traits/CanGetPaymentMethodsTraitTest\.php\:81\:\:__construct\(\) has parameter \$body with no type specified\.$#'
+			identifier: missingType.parameter
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Property class@anonymous/tests/Unit/Traits/CanGetPaymentMethodsTraitTest\.php\:81\:\:\$source has no type specified\.$#'
+			identifier: missingType.property
+			count: 1
+			path: tests/Unit/Traits/CanGetPaymentMethodsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssueCapturesTrait\:\:capture\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanIssueCapturesTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:capture\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanIssueCapturesTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanIssueCapturesTraitTest\:\:testCanCaptureTransaction\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanIssueCapturesTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssuePaymentsTrait\:\:pay\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanIssuePaymentsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:pay\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanIssuePaymentsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanIssuePaymentsTraitTest\:\:testCanPay\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanIssuePaymentsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssueRefundsTrait\:\:refund\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanIssueRefundsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:refund\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanIssueRefundsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanIssueRefundsTraitTest\:\:canRefundData\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanIssueRefundsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanIssueRefundsTraitTest\:\:testCanRefund\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanIssueRefundsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanIssueVoidsTrait\:\:void\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanIssueVoidsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:void\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanIssueVoidsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanIssueVoidsTraitTest\:\:canVoidData\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/CanIssueVoidsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanIssueVoidsTraitTest\:\:testCanVoidTransaction\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanIssueVoidsTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanUpdateCustomersTrait\:\:update\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanUpdateCustomersTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:update\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanUpdateCustomersTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanUpdateCustomersTraitTest\:\:testCanUpdate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanUpdateCustomersTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\CanUpdatePaymentMethodsTrait\:\:update\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/CanUpdatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:update\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/CanUpdatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\CanUpdatePaymentMethodsTraitTest\:\:testCanUpdate\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/CanUpdatePaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\HasCashbackAmountTraitTest\:\:providerForTestProperties\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/HasCashbackAmountTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\HasCustomersTrait\:\:customers\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasCustomersTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\HasPaymentMethodsTrait\:\:paymentMethods\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:paymentMethods\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/HasPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\HasPaymentMethodsTraitTest\:\:testCanGetCustomersInstance\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/HasPaymentMethodsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\HasTipAmountTraitTest\:\:providerForTestProperties\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: tests/Unit/Traits/HasTipAmountTraitTest.php
+
+		-
+			message: '#^@covers value \\GoDaddy\\WordPress\\MWC\\Payments\\Traits\\HasTransactionsTrait\:\:transactions\(\) references an invalid method\.$#'
+			identifier: phpunit.coversMethod
+			count: 1
+			path: tests/Unit/Traits/HasTransactionsTraitTest.php
+
+		-
+			message: '#^Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject\:\:transactions\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: tests/Unit/Traits/HasTransactionsTraitTest.php
+
+		-
+			message: '#^Method GoDaddy\\WordPress\\MWC\\Payments\\Tests\\Unit\\Traits\\HasTransactionsTraitTest\:\:testCanGetTransactionsInstance\(\) has no return type specified\.$#'
+			identifier: missingType.return
+			count: 1
+			path: tests/Unit/Traits/HasTransactionsTraitTest.php
