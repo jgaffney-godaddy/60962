@@ -21,6 +21,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .1em;
+	font-size: 50px !important;
 }
 
 /* Focus styles */
